@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CoffeeHouse | Menu</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="header-content">
+      <div class="logo">Coffee<span>House</span></div>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="../index.html#story">Our Story</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <h1>Our Menu</h1>
+    <p>Carefully crafted drinks made from premium beans and fresh ingredients.</p>
+  </div>
+</section>
+
+<!-- Hot Coffee -->
+<section class="coffee-menu">
+  <div class="container">
+    <h2 class="section-title">Hot Coffee</h2>
+
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="../images/Espresso.avif" alt="Espresso">
+        <div class="menu-item-content">
+          <h3>Espresso</h3>
+          <p>Rich, bold, and intense — the heart of every coffee drink.</p>
+          <div class="price">$3.50</div>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="../images/Latte.avif" alt="Latte">
+        <div class="menu-item-content">
+          <h3>Latte</h3>
+          <p>Smooth espresso blended with steamed milk.</p>
+          <div class="price">$4.50</div>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="../images/Cappuccino.jpg" alt="Cappuccino">
+        <div class="menu-item-content">
+          <h3>Cappuccino</h3>
+          <p>Perfect balance of espresso, milk, and foam.</p>
+          <div class="price">$4.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cold Coffee -->
+<section class="coffee-menu">
+  <div class="container">
+    <h2 class="section-title">Cold Coffee</h2>
+
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="../images/Cold Brew.avif" alt="Cold Brew">
+        <div class="menu-item-content">
+          <h3>Cold Brew</h3>
+          <p>Slow-brewed for 12+ hours, smooth and refreshing.</p>
+          <div class="price">$4.00</div>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="../images/Iced Latte.avif" alt="Iced Latte">
+        <div class="menu-item-content">
+          <h3>Iced Latte</h3>
+          <p>Chilled espresso with milk over ice.</p>
+          <div class="price">$4.75</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Desserts -->
+<section class="coffee-menu">
+  <div class="container">
+    <h2 class="section-title">Desserts</h2>
+
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="../images/Croissant.avif" alt="Croissant">
+        <div class="menu-item-content">
+          <h3>Croissant</h3>
+          <p>Freshly baked, buttery and flaky.</p>
+          <div class="price">$2.50</div>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="../images/Cheesecake.avif" alt="Cheesecake">
+        <div class="menu-item-content">
+          <h3>Cheesecake</h3>
+          <p>Classic creamy cheesecake with a biscuit base.</p>
+          <div class="price">$3.75</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">CoffeeHouse</div>
+                    <p>We're passionate about serving the perfect cup of coffee in a warm, welcoming environment. Join us for your daily brew!</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Taiz City</p>
+                    <p><i class="fas fa-phone"></i> 777 777 777</p>
+                    <p><i class="fas fa-envelope"></i> info@coffeehouse.com</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 CoffeeHouse. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #D2691E;"></i> for coffee lovers everywhere</p>
+            </div>
+        </div>
+    </footer>
+ <script>
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
